@@ -1,6 +1,6 @@
 #include <iostream>
 
-// function to find factorial of given number
+// function to find factorial of given number using recursion
 unsigned int factorialRec(unsigned int n)
 {
     if (n == 0) {
@@ -9,6 +9,7 @@ unsigned int factorialRec(unsigned int n)
     return n * factorialRec(n - 1);
 }
 
+// function to find factorial of given number without recursion
 unsigned int factorialWRec(unsigned int n)
 {
     unsigned result = 1;
